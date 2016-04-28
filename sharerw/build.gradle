@@ -1,0 +1,36 @@
+group 'personal.arc.rpc.protobuf.springboot'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:3.0.0-alpha-2',
+            'com.baidu:jprotobuf:2.0.1-SNAPSHOT',
+            "com.baidu:jprotobuf-rpc-core:3.4.0",
+            "com.baidu:jprotobuf-rpc-core-spring:3.4.0",
+            "com.baidu:jprotobuf-rpc-registry-redis:3.4.0"
+}
+
+jar {
+    baseName = "share-rw"
+}
+
+// package the sources to be a jar file.
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+}
+
+publishing {
+    publications {
+        common(MavenPublication) {
+            from components.java
+            artifact sourceJar {
+                classifier "sources"
+            }
+        }
+    }
+}

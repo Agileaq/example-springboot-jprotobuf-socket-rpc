@@ -1,0 +1,6 @@
+rootProject.name = 'exampleapp'
+include 'mainapp'
+include 'sharerw'
+include 'sdk'
+include 'share'
+
