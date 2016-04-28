@@ -28,11 +28,9 @@ allprojects {
     targetCompatibility = '1.8'
 
     repositories {
-//        maven { url 'http://archiva.dianrong.com/repository/mirror' }
-//        maven { url 'http://archiva.dianrong.com/repository/internal' }
-//        maven { url 'http://archiva.dianrong.com/repository/snapshots' }
         maven { url "http://repo.spring.io/snapshot" }
         maven { url "http://repo.spring.io/milestone" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots"}
         jcenter()
     }
 
