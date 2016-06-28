@@ -39,7 +39,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: com.baidu:jprotobuf:2.0.1-SNAPSHOT">
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.baidu/jprotobuf/2.0.1-SNAPSHOT/fd1fbdf6e5e45a6227727194772b7c7c1a63d8ae/jprotobuf-2.0.1-SNAPSHOT.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.baidu/jprotobuf/2.0.1-SNAPSHOT/77facecb1d73de743905d56dc45fce2e186b017e/jprotobuf-2.0.1-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -11,6 +11,4 @@ public interface EchoService {
     @ProtobufRPC(serviceName = "echoService", onceTalkTimeout=10000)
     EchoInfo echo(EchoInfo info);
 
-    @ProtobufRPC(serviceName = "echoService", onceTalkTimeout=10000)
-    EchoInfo<EchoInfo> echo2(EchoInfo<EchoInfo> info);
 }
