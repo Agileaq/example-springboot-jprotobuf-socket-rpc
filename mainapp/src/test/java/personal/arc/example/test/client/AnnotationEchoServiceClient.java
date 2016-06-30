@@ -14,4 +14,3 @@ public class AnnotationEchoServiceClient {
     public EchoService haEchoService;
 
 }
-
